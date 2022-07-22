@@ -1,0 +1,63 @@
+@font-face {
+  font-family: monster;
+  src: url(./fonts/Melted\ Monster.ttf);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.nav-font {
+  font-family: monster;
+  font-size: 30px;
+  color: white !important;
+}
+.nav {
+  background-color: #070d02 !important;
+}
+.hero {
+  background-image: url(./asserts/bg-hero.png);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  background-color: #0e2200;
+}
+.hero-text {
+  font-family: monster;
+  font-size: 6rem;
+  color: #f2a746;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+.hero-para {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: monster;
+  margin-left: 20px;
+}
+.hero-btn1 {
+  color: #f2a746 !important;
+  border: 2px solid #f2a746 !important;
+  margin-left: 20px;
+}
+.hero-btn1:hover {
+  background-color: #f2a746 !important;
+  border: none !important;
+  color: #0e2200 !important;
+}
+.hero-btn2 {
+  color: #ffffff !important;
+  margin-left: 7px;
+}
+
+.toggler {
+  color: #f2a746 !important;
+}
+@media only screen and (max-width: 508px) {
+  .hero-text {
+    font-family: monster;
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 2px;
+  }
+}
